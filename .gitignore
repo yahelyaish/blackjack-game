@@ -1,48 +1,46 @@
-# Prerequisites
-*.d
-
-# Object files
+# =====================
+# C / C++ build files
+# =====================
 *.o
-*.ko
 *.obj
 *.elf
+*.out
+*.app
+*.exe
+*.i*86
+*.x86_64
+*.hex
 
 # Linker output
 *.ilk
 *.map
 *.exp
 
-# Precompiled Headers
-*.gch
-*.pch
-
 # Libraries
-*.lib
 *.a
+*.lib
 *.la
 *.lo
 
-# Shared objects (inc. Windows DLLs)
+# Shared objects (DLLs / SOs)
 *.dll
 *.so
 *.so.*
 *.dylib
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Precompiled headers
+*.gch
+*.pch
 
 # Debug files
 *.dSYM/
 *.su
 *.idb
 *.pdb
+*.dwo
 
-# Kernel Module Compile Results
+# Kernel module files (Linux only)
+*.ko
 *.mod*
 *.cmd
 .tmp_versions/
@@ -51,5 +49,29 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# debug information files
-*.dwo
+# =====================
+# IDE / Editor files
+# =====================
+
+# VSCode settings
+.vscode/
+
+# CLion / JetBrains IDE
+.idea/
+
+# =====================
+# OS-specific files
+# =====================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# =====================
+# Logs / temp
+# =====================
+*.log
+*.tmp
