@@ -41,7 +41,7 @@ Card* cardRemoveAt(CardList* list, size_t index) {
     list->cardCount--;
     return curr;
 }
-
+/*
 Card* popCard(CardList* list) {
     if (!list || !list->head) return NULL;
 
@@ -54,7 +54,7 @@ Card* popCard(CardList* list) {
     list->cardCount--;
     return c;
 }
-
+*/
 void fillDeck(CardList* deck) {
     if (!deck) return;
 
@@ -144,4 +144,5 @@ void printCardList(const CardList* list) {
         curr = curr->next;
     }
 }
+
 
